@@ -1,7 +1,6 @@
 package creational_patterns.builder;
 
 import java.util.Optional;
-import java.util.Set;
 
 public class Director {
     private Builder builder;

@@ -9,6 +9,6 @@ public abstract class Beta {
 
     public String getType() { return type; }
     public void printBetaType(){
-        System.out.println("Beta type is: " + type);
+        System.out.println("Beta type is: " + this.getType());
     }
 }

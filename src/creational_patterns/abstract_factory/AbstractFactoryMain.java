@@ -4,7 +4,7 @@ import creational_patterns.abstract_factory.factory.AbstractFactory;
 import creational_patterns.abstract_factory.factory.ConcreteFactoryX;
 import creational_patterns.abstract_factory.factory.ConcreteFactoryY;
 
-    void main(String[] args) {
+    void main() {
         AbstractFactory factoryX = new ConcreteFactoryX();
         AbstractFactory factoryY = new ConcreteFactoryY();
 

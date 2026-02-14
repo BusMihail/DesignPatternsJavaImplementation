@@ -7,24 +7,12 @@ public class Product {
 
     public Product(){}
 
-    public String getName() {
-        return name;
-    }
-
     public void setName(String name) {
         this.name = name;
     }
 
-    public Integer getValue() {
-        return value;
-    }
-
     public void setValue(Integer value) {
         this.value = value;
-    }
-
-    public Boolean getStatus() {
-        return status;
     }
 
     public void setStatus(Boolean status) {
